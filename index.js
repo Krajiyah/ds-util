@@ -68,7 +68,7 @@ String.prototype.isAlphaNumeric = function() {
   return true;
 }
 
-Number.genEpochUnixTS = () => new Date().getTime() / 1000;
+Number.epochUnixTS = () => Math.floor(new Date().getTime() / 1000);
 
 Array.prototype.shuffle = function() {
   let currentIndex = this.length;
