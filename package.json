@@ -1,0 +1,19 @@
+{
+  "name": "ds-util",
+  "version": "1.0.0",
+  "description": "Common data structure utils implemented via prototypes (utils for Array, Set, string, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krajiyah/ds-util.git"
+  },
+  "author": "Krishnan Rajiyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krajiyah/ds-util/issues"
+  },
+  "homepage": "https://github.com/Krajiyah/ds-util#readme"
+}
