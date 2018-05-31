@@ -1,6 +1,6 @@
 {
   "name": "ds-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common data structure utils implemented via prototypes (utils for Array, Set, string, etc.)",
   "main": "index.js",
   "scripts": {

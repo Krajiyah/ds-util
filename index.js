@@ -26,6 +26,15 @@ Array.prototype.filterAsync = async function(cb) {
   return result;
 }
 
+Array.prototype.reduceAsync = async function(cb, initValue) {
+  var result = initValue;
+  for (let i = 0; i < this.length; i++) {
+    let ele = this[i];
+    result = await cb(result, ele);
+  }
+  return result;
+}
+
 Array.prototype.randChoice = function() {
   return this[Math.floor(Math.random() * this.length)];
 }
