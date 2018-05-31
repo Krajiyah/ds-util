@@ -79,6 +79,13 @@ String.prototype.isAlphaNumeric = function() {
 
 Number.epochUnixTS = () => Math.floor(new Date().getTime() / 1000);
 
+Boolean.parseString = str => {
+  str = str.toLowerCase();
+  if (str == "true") return true;
+  if (str == "false") return false;
+  throw new Error(`Could not parse ${str} to boolean`);
+}
+
 Array.prototype.shuffle = function() {
   let currentIndex = this.length;
   let temporaryValue, randomIndex;
